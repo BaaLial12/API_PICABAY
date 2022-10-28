@@ -1,0 +1,19 @@
+{
+    "name": "david/api_pixabay",
+    "description": "Practica Api_Pixabay",
+    "type": "project",
+    "license": "gnu/gpl",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "David Ureña Arroniz"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
